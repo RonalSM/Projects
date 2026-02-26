@@ -45,15 +45,17 @@ body {
 .barra-navegacion .busqueda .formulario-busqueda {
     width: 28vw;
     height: 2.3rem;
-    padding: 12px;
+    padding: 9px;
     border: none;
     background: #1b1b1d;
     border-radius: 45px 0 0 45px ;
     outline: 1px solid #585858;
-    padding-left: 16px;
 }
 
 .icono-busqueda-1 {
+    width: 25px;
+    height: 25px;
+    fill: #fff;
     display: none;
 }
 
@@ -66,9 +68,10 @@ body {
     font-size: 16px;
 }
 .barra-navegacion .busqueda .icono-busqueda {
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     fill: #fff;
+    
 }
 .barra-navegacion .busqueda input:focus {
     outline: 0px solid #0066ff;
