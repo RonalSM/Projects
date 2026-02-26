@@ -66,8 +66,8 @@ body {
     font-size: 16px;
 }
 .barra-navegacion .busqueda .icono-busqueda {
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     fill: #fff;
 }
 .barra-navegacion .busqueda input:focus {
@@ -92,12 +92,6 @@ body {
 .barra-navegacion .formulario-busqueda {
     display: flex;
     align-items: center;
-}
-
-.icono-busqueda {
-    width: 20px;
-    height: 20px;
-    fill: #fff;
 }
 
 .barra-navegacion .info-usuario {
