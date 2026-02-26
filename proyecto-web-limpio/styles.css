@@ -1,8 +1,8 @@
-* { box-sizing: border-box; margin: 0; padding: 0; }
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Inter', sans-serif; }
 body {
     background-color: #0f0f0f;
 }
-.navbar {
+.barra-navegacion {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -11,13 +11,13 @@ body {
     background: transparent;
     color: #fff;
 }
-.navbar .hamburger-container {
+.barra-navegacion .contenedor-hamburguesa {
     display: flex;
     align-items: center;
     flex-direction: row;
 }
 
-.navbar .hamburger {
+.barra-navegacion .hamburguesa {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -27,22 +27,22 @@ body {
     height: 15px;
     cursor: pointer;
 }
-.navbar .hamburger .bar {
+.barra-navegacion .hamburguesa .barra {
     width: 80%;
     height: 2px;
     background: #fff;
     border-radius: 1px;
 }
-.navbar .container .logo {
+.barra-navegacion .contenedor .logo {
     padding: 18px 14px 18px 14px;
     fill: #fff;
 }
 
-.navbar .search {
+.barra-navegacion .busqueda {
     display: flex;
     align-items: center;
 }
-.navbar .search input {
+.barra-navegacion .busqueda .formulario-busqueda {
     width: 28vw;
     height: 2.3rem;
     padding: 12px;
@@ -50,15 +50,34 @@ body {
     background: #1b1b1d;
     border-radius: 45px 0 0 45px ;
     outline: 1px solid #585858;
-}
-.navbar .search input:focus {
-    outline: 1px solid #0066ff;
-}
-.navbar .search input::placeholder {
-    color: #585858;
+    padding-left: 16px;
 }
 
-.navbar .search button {
+.icono-busqueda-1 {
+    display: none;
+}
+
+.barra-navegacion .busqueda input {
+    width: 100%;
+    border: none;
+    background: transparent;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+}
+.barra-navegacion .busqueda .icono-busqueda {
+    width: 30px;
+    height: 30px;
+    fill: #fff;
+}
+.barra-navegacion .busqueda input:focus {
+    outline: 0px solid #0066ff;
+}
+.barra-navegacion .busqueda input::placeholder {
+    color: #585858;
+    font-size: 16px;
+}
+.barra-navegacion .busqueda button {
     height: 2.4rem;
     width: 4rem;
     padding: 0px 10px 0px 10px;
@@ -70,13 +89,18 @@ body {
     justify-content: center;
     align-items: center;
 }
-.navbar .search button svg {
-    width: 30px;
-    height: 30px;
+.barra-navegacion .formulario-busqueda {
+    display: flex;
+    align-items: center;
+}
+
+.icono-busqueda {
+    width: 20px;
+    height: 20px;
     fill: #fff;
 }
 
-.navbar .user-info {
+.barra-navegacion .info-usuario {
     display: flex;
     align-items: center;
     justify-content: center;
