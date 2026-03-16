@@ -1,7 +1,14 @@
-* { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Inter', sans-serif; }
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
 body {
     background-color: #0f0f0f;
 }
+
 .barra-navegacion {
     display: flex;
     justify-content: space-between;
@@ -11,6 +18,7 @@ body {
     background: transparent;
     color: #fff;
 }
+
 .barra-navegacion .contenedor-hamburguesa {
     display: flex;
     align-items: center;
@@ -27,12 +35,14 @@ body {
     height: 15px;
     cursor: pointer;
 }
+
 .barra-navegacion .hamburguesa .barra {
     width: 80%;
     height: 2px;
     background: #fff;
     border-radius: 1px;
 }
+
 .barra-navegacion .contenedor .logo {
     padding: 18px 14px 18px 14px;
     fill: #fff;
@@ -42,13 +52,14 @@ body {
     display: flex;
     align-items: center;
 }
+
 .barra-navegacion .busqueda .formulario-busqueda {
     width: 28vw;
     height: 2.3rem;
     padding: 9px;
     border: none;
     background: #1b1b1d;
-    border-radius: 45px 0 0 45px ;
+    border-radius: 45px 0 0 45px;
     outline: 1px solid #585858;
 }
 
@@ -67,19 +78,23 @@ body {
     color: #fff;
     font-size: 16px;
 }
+
 .barra-navegacion .busqueda .icono-busqueda {
     width: 30px;
     height: 30px;
     fill: #fff;
-    
+
 }
+
 .barra-navegacion .busqueda input:focus {
     outline: 0px solid #0066ff;
 }
+
 .barra-navegacion .busqueda input::placeholder {
     color: #585858;
     font-size: 16px;
 }
+
 .barra-navegacion .busqueda button {
     height: 2.4rem;
     width: 4rem;
@@ -87,11 +102,12 @@ body {
     border: 1px solid #585858;
     border-radius: 0 50px 50px 0;
     cursor: pointer;
-    background-color: #292929 ;
+    background-color: #292929;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .barra-navegacion .formulario-busqueda {
     display: flex;
     align-items: center;
@@ -101,4 +117,71 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.barra-navegacion .info-usuario .btn-crear {
+    height: 2.4rem;
+    background-color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+    border: 0px solid transparent;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.barra-navegacion .info-usuario .btn-crear:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.barra-navegacion .info-usuario .crear-logo {
+    width: 24px;
+    height: 24px;
+    fill: #fff;
+    margin: 5px 2px 5px 10px;
+}
+
+.barra-navegacion .info-usuario .btn-crear .crear-texto {
+    margin: 5px 15px 5px 2px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 550;
+}
+
+.barra-navegacion .info-usuario .btn-notificaciones {
+    height: 2.4rem;
+    width: 2.4rem;
+    background: rgba(255, 255, 255, 0.0);
+    border: 0px solid transparent;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.barra-navegacion .info-usuario .btn-notificaciones:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.barra-navegacion .info-usuario .btn-notificaciones .notificaciones-logo {
+    width: 24px;
+    height: 24px;
+    fill: #fff;
+    margin: 0 auto;
+}
+
+.barra-navegacion .info-usuario .usuario {
+    height: 2.4rem;
+    width: 2.4rem;
+    background: rgba(255, 255, 255, 0.0);
+    border: 0px solid transparent;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.barra-navegacion .info-usuario .usuario img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 18px;
 }
